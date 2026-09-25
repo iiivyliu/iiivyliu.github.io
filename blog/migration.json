@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Representations of Dynkin Quivers",
+    "date": "2025-04-14",
+    "url": "blog/010-representations_of_dynkin_quivers/index.html",
+    "formulas": 2
+  },
+  {
+    "title": "On the MDS Conjecture",
+    "date": "2024-12-31",
+    "url": "blog/009-MDS/index.html",
+    "formulas": 15
+  },
+  {
+    "title": "Deodhar diagram and rational dyck path",
+    "date": "2024-11-16",
+    "url": "blog/008-deogram/index.html",
+    "formulas": 2
+  },
+  {
+    "title": "A Brief Introduction To Representations of Dynkin Quivers",
+    "date": "2024-06-20",
+    "url": "blog/007-quiver/index.html",
+    "formulas": 0
+  },
+  {
+    "title": "【抽象代数】环论总结",
+    "date": "2024-06-02",
+    "url": "blog/006_ring_theory_sum/index.html",
+    "formulas": 0
+  },
+  {
+    "title": "【抽象代数】群论总结",
+    "date": "2024-05-29",
+    "url": "blog/005_group_theory_sum/index.html",
+    "formulas": 0
+  },
+  {
+    "title": "【Sampling in Combinatorial】组合学讨论班Note 1",
+    "date": "2024-03-27",
+    "url": "blog/004_combinatorial_session1/index.html",
+    "formulas": 70
+  },
+  {
+    "title": "A Brief Overview of Classical Ramsey Theory",
+    "date": "2024-03-12",
+    "url": "blog/003_ramsey/index.html",
+    "formulas": 0
+  },
+  {
+    "title": "A Trace Inequality of Positive Semi-definite Matrices",
+    "date": "2024-03-12",
+    "url": "blog/002_trace_inequality/index.html",
+    "formulas": 2
+  },
+  {
+    "title": "A More General Statement of Riesz Representation Theorem",
+    "date": "2024-03-12",
+    "url": "blog/001_general-riesz-representation-theorem/index.html",
+    "formulas": 0
+  }
+]

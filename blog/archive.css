@@ -1,0 +1,5 @@
+/* Static archive: original NexT layout with no JavaScript requirement. */
+.sidebar-inner,.site-overview,.post-block,.post-header,.post-body,.collection-title{opacity:1!important;visibility:visible!important;transform:none!important}.site-nav{display:block!important}.archive-note{padding-top:45px;margin-bottom:15px;font-size:16px;line-height:1.8}.archive-note p{margin:0}.archive-note+.post-block{padding-top:35px}.sidebar{display:block}.sidebar-inner{padding:20px 18px}.post-body img{max-width:100%;height:auto}mjx-container[display="true"]{max-width:100%;overflow-x:auto;overflow-y:hidden}.post-body{overflow-wrap:break-word}@media(max-width:1199px){.sidebar{display:none}.sidebar-active{padding-left:0}}@media(max-width:767px){.site-nav{padding:8px 0}.menu{display:flex;flex-wrap:wrap;justify-content:center}.menu-item{display:inline-block!important}.archive-note{padding-top:25px}}
+
+/* Compact Deodhar / Dyck-path illustration. */
+img[src*="deo+dyck"], img[src*="deo%2Bdyck"] { width: 480px; max-width: 100%; height: auto; display: block; margin: 18px auto; }
