@@ -16,7 +16,7 @@
 
 ## 发布到 GitHub Pages
 
-请按 [发布与旧站备份说明](DEPLOY.md) 操作：先推送旧站备份分支，再用 academic-site 分支发布新版。原 main 分支保留。助手尚未在 GitHub 执行备份或发布。
+旧站备份已推送到 GitHub，新站已上传至 academic-site，Pages 已配置为从该分支根目录发布。原 main、gh-pages 和 master 分支均保留。后续更新及恢复方法见 [发布与旧站备份说明](DEPLOY.md)。
 
 ## 内容维护
 
