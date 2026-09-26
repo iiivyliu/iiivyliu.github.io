@@ -16,7 +16,7 @@
 
 ## 发布到 GitHub Pages
 
-旧站备份已推送到 GitHub，新站已上传至 academic-site，Pages 已配置为从该分支根目录发布。原 main、gh-pages 和 master 分支均保留。后续更新及恢复方法见 [发布与旧站备份说明](DEPLOY.md)。
+旧站备份已推送到 GitHub，新站位于 main，Pages 从 main 的根目录发布。原 main 内容已保存在 old-site-backup-2026-09-25；其他旧分支备份也保留。后续更新及恢复方法见 [发布与旧站备份说明](DEPLOY.md)。
 
 ## 内容维护
 
