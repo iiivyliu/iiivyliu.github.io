@@ -1,0 +1,82 @@
+{
+  "profile": {
+    "institution": "University of Wisconsin–Madison",
+    "role": "Master’s student in mathematics",
+    "email": "ivy.liu [at] wisc.edu",
+    "bio": "I am a master’s student in mathematics at the University of Wisconsin–Madison. My research interests lie in algebraic combinatorics, with current work on algebraic graph theory and Lorentzian polynomials.\n\nI received my B.S. in Mathematics from Shanghai Jiao Tong University in 2026.",
+    "music": "https://music.163.com/artist?id=53975560"
+  },
+  "publications": [
+    {
+      "title": "On Q-Polynomial Graphs and Entrywise Closure of the Adjacency Algebra",
+      "authors": "",
+      "venue": "",
+      "status": "In preparation.",
+      "url": "",
+      "label": ""
+    },
+    {
+      "title": "Bounded Ratios of Lorentzian Polynomials I: The Ternary Theory and Optimal Bounding Constants",
+      "authors": "With Dijia Chen, Bowen Gan, Zemeng Wang, and Chengzhi Wu.",
+      "venue": "",
+      "status": "",
+      "url": "https://arxiv.org/abs/2609.06145",
+      "label": "arXiv:2609.06145"
+    },
+    {
+      "title": "Bounded Ratios of Lorentzian Polynomials II: The Complete Quadratic Local-to-Global Classification",
+      "authors": "With Dijia Chen, Bowen Gan, Zemeng Wang, and Chengzhi Wu.",
+      "venue": "",
+      "status": "",
+      "url": "https://arxiv.org/abs/2609.07098",
+      "label": "arXiv:2609.07098"
+    }
+  ],
+  "talks": [
+    {
+      "date": "May 15, 2026",
+      "title": "Theory of Toric Varieties and Its Application to the Face Enumeration of Simplicial Polytopes",
+      "url": ""
+    },
+    {
+      "date": "Apr 27, 2026",
+      "title": "On the Finite Dimensional Irreducible ⊠-Modules",
+      "url": ""
+    },
+    {
+      "date": "Mar 13 & 20, 2026",
+      "title": "Closedness of the Space of Lorentzian Polynomials",
+      "url": ""
+    },
+    {
+      "date": "Nov 5, 2025",
+      "title": "On the Value Function Methods",
+      "url": ""
+    },
+    {
+      "date": "Apr 4, 2025",
+      "title": "Representations of Dynkin Quivers",
+      "url": "pdf/20250414representations_of_dynkin_quivers.pdf"
+    },
+    {
+      "date": "Mar 16, 2025",
+      "title": "The Slice Rank of a Direct Sum",
+      "url": ""
+    },
+    {
+      "date": "Dec 31, 2024",
+      "title": "On the MDS Conjecture",
+      "url": "pdf/20241231MDS.pdf"
+    },
+    {
+      "date": "Nov 16, 2024",
+      "title": "Deodhar Diagrams and Rational Dyck Paths",
+      "url": "pdf/20241116deogram.pdf"
+    },
+    {
+      "date": "Apr 22, 2023",
+      "title": "A More General Statement of Riesz Representation Theorem",
+      "url": ""
+    }
+  ]
+}
