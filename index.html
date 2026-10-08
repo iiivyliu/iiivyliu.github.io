@@ -1,111 +1,438 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<title>Home | Ivy Liu</title><meta name="description" content="Ivy Liu — mathematics at the University of Wisconsin–Madison. Research in algebraic combinatorics, algebraic graph theory, and Lorentzian polynomials.">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css"></head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<body><a class="skip" href="#main">Skip to content</a><div class="site"><header><a class="wordmark" href="index.html">Ivy Liu</a><nav aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="talks.html">Talks</a><a href="cv.html">CV</a><a href="blog/index.html">Blog</a><a href="non-math.html">Non-math</a></nav></header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<main id="main">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="intro"><div class="identity"><p class="eyebrow">University of Wisconsin–Madison</p><h1>Ivy Liu<span class="chinese-name" lang="zh-Hans">刘瑷玮</span></h1><p class="role">Master’s student in mathematics</p><div class="contact">contact: ivy.liu [at] wisc.edu</div></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="bio"><p>I am a master’s student in mathematics at the University of Wisconsin–Madison. My research interests lie in <strong>algebraic combinatorics</strong>, with current work on <strong>algebraic graph theory</strong> and <strong>Lorentzian polynomials</strong>.</p><p>I received my B.S. in Mathematics from Shanghai Jiao Tong University in 2026.</p></div></section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="publications" class="publications"><h2>Publications and Preprints</h2><ol class="paper-list">
-<li><span class="paper-title">On Q-Polynomial Graphs and Entrywise Closure of the Adjacency Algebra</span><div class="paper-detail"><em>In preparation.</em></div></li>
-<li><span class="paper-title">Bounded Ratios of Lorentzian Polynomials I: The Ternary Theory and Optimal Bounding Constants</span><div class="paper-detail">With Dijia Chen, Bowen Gan, Zemeng Wang, and Chengzhi Wu. <a href="https://arxiv.org/abs/2609.06145">arXiv:2609.06145</a></div></li>
-<li><span class="paper-title">Bounded Ratios of Lorentzian Polynomials II: The Complete Quadratic Local-to-Global Classification</span><div class="paper-detail">With Dijia Chen, Bowen Gan, Zemeng Wang, and Chengzhi Wu. <a href="https://arxiv.org/abs/2609.07098">arXiv:2609.07098</a></div></li>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Home | Ivy Liu</title><meta name="description" content="Ivy Liu — mathematics at the University of Wisconsin–Madison. Research in algebraic combinatorics, algebraic graph theory, and Lorentzian polynomials.">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css"></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body><a class="skip" href="#main">Skip to content</a><div class="site"><header><a class="wordmark" href="index.html">Ivy Liu</a><nav aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="talks.html">Talks</a><a href="cv.html">CV</a><a href="blog/index.html">Blog</a><a href="non-math.html">Non-math</a><a href="tools.html">Tools</a></nav></header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main id="main">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="intro"><div class="identity"><p class="eyebrow">University of Wisconsin–Madison</p><h1>Ivy Liu<span class="chinese-name" lang="zh-Hans">刘瑷玮</span></h1><p class="role">Master’s student in mathematics</p><div class="contact">contact: ivy.liu [at] wisc.edu</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bio"><p>I am a master’s student in mathematics at the University of Wisconsin–Madison. My research interests lie in <strong>algebraic combinatorics</strong>, with current work on <strong>algebraic graph theory</strong> and <strong>Lorentzian polynomials</strong>.</p><p>I received my B.S. in Mathematics from Shanghai Jiao Tong University in 2026.</p></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="publications" class="publications"><h2>Publications and Preprints</h2><ol class="paper-list">
+
+
+
+<li><span class="paper-title">On Q-Polynomial Graphs and Entrywise Closure of the Adjacency Algebra</span><div class="paper-detail"><em>In preparation.</em></div></li>
+
+
+
+<li><span class="paper-title">Bounded Ratios of Lorentzian Polynomials I: The Ternary Theory and Optimal Bounding Constants</span><div class="paper-detail">With Dijia Chen, Bowen Gan, Zemeng Wang, and Chengzhi Wu. <a href="https://arxiv.org/abs/2609.06145">arXiv:2609.06145</a></div></li>
+
+
+
+<li><span class="paper-title">Bounded Ratios of Lorentzian Polynomials II: The Complete Quadratic Local-to-Global Classification</span><div class="paper-detail">With Dijia Chen, Bowen Gan, Zemeng Wang, and Chengzhi Wu. <a href="https://arxiv.org/abs/2609.07098">arXiv:2609.07098</a></div></li>
+
+
+
 </ol></section></main></div></body></html>

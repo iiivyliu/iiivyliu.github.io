@@ -1,178 +1,1071 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-
-
-
-
-
-
-
-<title>A Brief Introduction To Representations of Dynkin Quivers | Ivy Liu</title><meta name="description" content="Ivy Liu — mathematics at the University of Wisconsin–Madison. Research in algebraic combinatorics, algebraic graph theory, and Lorentzian polynomials.">
-
-
-
-
-
-
-
-
-
-
-<link rel="icon" type="image/svg+xml" href="../../../../assets/favicon.svg"><link rel="stylesheet" href="../../../../assets/style.css"><style>mjx-container[jax="SVG"] {
-  direction: ltr;
-}
-
-mjx-container[jax="SVG"] > svg {
-  overflow: visible;
-}
-
-mjx-container[jax="SVG"][display="true"] {
-  display: block;
-  text-align: center;
-  margin: 1em 0;
-}
-
-mjx-container[jax="SVG"][justify="left"] {
-  text-align: left;
-}
-
-mjx-container[jax="SVG"][justify="right"] {
-  text-align: right;
-}
-
-g[data-mml-node="merror"] > g {
-  fill: red;
-  stroke: red;
-}
-
-g[data-mml-node="merror"] > rect[data-background] {
-  fill: yellow;
-  stroke: none;
-}
-
-g[data-mml-node="mtable"] > line[data-line] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > rect[data-frame] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > .mjx-dashed {
-  stroke-dasharray: 140;
-}
-
-g[data-mml-node="mtable"] > .mjx-dotted {
-  stroke-linecap: round;
-  stroke-dasharray: 0,140;
-}
-
-g[data-mml-node="mtable"] > svg {
-  overflow: visible;
-}
-
-[jax="SVG"] mjx-tool {
-  display: inline-block;
-  position: relative;
-  width: 0;
-  height: 0;
-}
-
-[jax="SVG"] mjx-tool > mjx-tip {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-mjx-tool > mjx-tip {
-  display: inline-block;
-  padding: .2em;
-  border: 1px solid #888;
-  font-size: 70%;
-  background-color: #F8F8F8;
-  color: black;
-  box-shadow: 2px 2px 5px #AAAAAA;
-}
-
-g[data-mml-node="maction"][data-toggle] {
-  cursor: pointer;
-}
-
-mjx-status {
-  display: block;
-  position: fixed;
-  left: 1em;
-  bottom: 1em;
-  min-width: 25%;
-  padding: .2em .4em;
-  border: 1px solid #888;
-  font-size: 90%;
-  background-color: #F8F8F8;
-  color: black;
-}
-
-foreignObject[data-mjx-xml] {
-  font-family: initial;
-  line-height: normal;
-  overflow: visible;
-}
-
-.MathJax path {
-  stroke-width: 3;
-}
-
-mjx-container[display="true"] {
-  overflow: auto hidden;
-}
-
-mjx-container[display="true"] + br {
-  display: none;
-}
-</style></head>
-
-
-
-
-
-
-
-
-
-
-<body><a class="skip" href="#main">Skip to content</a><div class="site"><header><a class="wordmark" href="../../../../index.html">Ivy Liu</a><nav aria-label="Main navigation"><a href="../../../../index.html">Home</a><a href="../../../../talks.html">Talks</a><a href="../../../../cv.html">CV</a><a href="../../../../blog/index.html" aria-current="page">Blog</a><a href="../../../../non-math.html">Non-math</a></nav></header>
-
-
-
-
-
-
-
-
-
-
-<main id="main"><div class="page-heading blog-heading"><a href="../../../../blog/index.html">← Blog</a><h1>A Brief Introduction To Representations of Dynkin Quivers</h1><p class="meta">2024-06-20</p></div><article><div class="blog-body" itemprop="articleBody"><p>This is the final of a seminar about mathematics.</p>
-<p><strong>Abstract:</strong> Quiver representations are an important
-concept in algebraic representation theory. They provide numerous
-examples that integrate algebraic representation theory and have
-significant applications in various mathematical fields such as cluster
-algebras and algebraic geometry. The famous Gabriel's Theorem classifies
-finite type quivers and their indecomposable representations,
-highlighting the importance of Dynkin quivers.</p>
-<p>This paper provides some basic definitions and crucial theorems about
-the representation of Dynkin quivers. Additionally, it discusses
-potential future research directions.</p>
-<p><a href="../../../../pdf/20240620quiver.pdf">text
-here</a></p>
-
-    </div>
-
-    
-    
-    
-
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>A Brief Introduction To Representations of Dynkin Quivers | Ivy Liu</title><meta name="description" content="Ivy Liu — mathematics at the University of Wisconsin–Madison. Research in algebraic combinatorics, algebraic graph theory, and Lorentzian polynomials.">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="../../../../assets/favicon.svg"><link rel="stylesheet" href="../../../../assets/style.css"><style>mjx-container[jax="SVG"] {
+
+
+
+
+
+  direction: ltr;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-container[jax="SVG"] > svg {
+
+
+
+
+
+  overflow: visible;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-container[jax="SVG"][display="true"] {
+
+
+
+
+
+  display: block;
+
+
+
+
+
+  text-align: center;
+
+
+
+
+
+  margin: 1em 0;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-container[jax="SVG"][justify="left"] {
+
+
+
+
+
+  text-align: left;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-container[jax="SVG"][justify="right"] {
+
+
+
+
+
+  text-align: right;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+g[data-mml-node="merror"] > g {
+
+
+
+
+
+  fill: red;
+
+
+
+
+
+  stroke: red;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+g[data-mml-node="merror"] > rect[data-background] {
+
+
+
+
+
+  fill: yellow;
+
+
+
+
+
+  stroke: none;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+g[data-mml-node="mtable"] > line[data-line] {
+
+
+
+
+
+  stroke-width: 70px;
+
+
+
+
+
+  fill: none;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+
+
+
+
+
+  stroke-width: 70px;
+
+
+
+
+
+  fill: none;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+
+
+
+
+
+  stroke-dasharray: 140;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+
+
+
+
+
+  stroke-linecap: round;
+
+
+
+
+
+  stroke-dasharray: 0,140;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+g[data-mml-node="mtable"] > svg {
+
+
+
+
+
+  overflow: visible;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+[jax="SVG"] mjx-tool {
+
+
+
+
+
+  display: inline-block;
+
+
+
+
+
+  position: relative;
+
+
+
+
+
+  width: 0;
+
+
+
+
+
+  height: 0;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+[jax="SVG"] mjx-tool > mjx-tip {
+
+
+
+
+
+  position: absolute;
+
+
+
+
+
+  top: 0;
+
+
+
+
+
+  left: 0;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-tool > mjx-tip {
+
+
+
+
+
+  display: inline-block;
+
+
+
+
+
+  padding: .2em;
+
+
+
+
+
+  border: 1px solid #888;
+
+
+
+
+
+  font-size: 70%;
+
+
+
+
+
+  background-color: #F8F8F8;
+
+
+
+
+
+  color: black;
+
+
+
+
+
+  box-shadow: 2px 2px 5px #AAAAAA;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+g[data-mml-node="maction"][data-toggle] {
+
+
+
+
+
+  cursor: pointer;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-status {
+
+
+
+
+
+  display: block;
+
+
+
+
+
+  position: fixed;
+
+
+
+
+
+  left: 1em;
+
+
+
+
+
+  bottom: 1em;
+
+
+
+
+
+  min-width: 25%;
+
+
+
+
+
+  padding: .2em .4em;
+
+
+
+
+
+  border: 1px solid #888;
+
+
+
+
+
+  font-size: 90%;
+
+
+
+
+
+  background-color: #F8F8F8;
+
+
+
+
+
+  color: black;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+foreignObject[data-mjx-xml] {
+
+
+
+
+
+  font-family: initial;
+
+
+
+
+
+  line-height: normal;
+
+
+
+
+
+  overflow: visible;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.MathJax path {
+
+
+
+
+
+  stroke-width: 3;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-container[display="true"] {
+
+
+
+
+
+  overflow: auto hidden;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+mjx-container[display="true"] + br {
+
+
+
+
+
+  display: none;
+
+
+
+
+
+}
+
+
+
+
+
+</style></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body><a class="skip" href="#main">Skip to content</a><div class="site"><header><a class="wordmark" href="../../../../index.html">Ivy Liu</a><nav aria-label="Main navigation"><a href="../../../../index.html">Home</a><a href="../../../../talks.html">Talks</a><a href="../../../../cv.html">CV</a><a href="../../../../blog/index.html" aria-current="page">Blog</a><a href="../../../../non-math.html">Non-math</a><a href="../../../../tools.html">Tools</a></nav></header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main id="main"><div class="page-heading blog-heading"><a href="../../../../blog/index.html">← Blog</a><h1>A Brief Introduction To Representations of Dynkin Quivers</h1><p class="meta">2024-06-20</p></div><article><div class="blog-body" itemprop="articleBody"><p>This is the final of a seminar about mathematics.</p>
+
+
+
+
+
+
+<p><strong>Abstract:</strong> Quiver representations are an important
+
+
+
+
+
+
+concept in algebraic representation theory. They provide numerous
+
+
+
+
+
+
+examples that integrate algebraic representation theory and have
+
+
+
+
+
+
+significant applications in various mathematical fields such as cluster
+
+
+
+
+
+
+algebras and algebraic geometry. The famous Gabriel's Theorem classifies
+
+
+
+
+
+
+finite type quivers and their indecomposable representations,
+
+
+
+
+
+
+highlighting the importance of Dynkin quivers.</p>
+
+
+
+
+
+
+<p>This paper provides some basic definitions and crucial theorems about
+
+
+
+
+
+
+the representation of Dynkin quivers. Additionally, it discusses
+
+
+
+
+
+
+potential future research directions.</p>
+
+
+
+
+
+
+<p><a href="../../../../pdf/20240620quiver.pdf">text
+
+
+
+
+
+
+here</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
     </article></main></div></body></html>
